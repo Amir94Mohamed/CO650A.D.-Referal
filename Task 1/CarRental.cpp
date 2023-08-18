@@ -125,7 +125,7 @@ int main() {
     emp.displayEmpInfo();
 
     RentalStatistics::incrementRentedCount();
-    std::cout << "Total rentals: " << RentalStatistics::rentedCount << "\n";
+    std::cout << "Total rentals: " << RentalStatistics::rentedCount + 1 << "\n";
 
     Customer customer("Amir");
     customer.displayCusInfo();
